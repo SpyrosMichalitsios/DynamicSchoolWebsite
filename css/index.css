@@ -1,0 +1,33 @@
+/*THIS IS FOR THE LOGIN PAGE*/
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.login-container .signup-msg{
+    margin: 20px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+} 
+
+.login-form label{
+    font-size: 25px;
+    border: 5px solid rgb(25, 42, 42);
+    padding: 5px;
+    border-radius: 12px;
+}
+
+
+#login-btn{
+    font-size: 30px;
+}

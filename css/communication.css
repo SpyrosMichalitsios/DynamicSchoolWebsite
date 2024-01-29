@@ -1,0 +1,16 @@
+/* FOR THE COMMUNICATION PAGE  */
+.email-form{
+    margin: 25px;
+}
+
+.email-form #subject{
+    width: 500px;
+}
+
+.email-form #sender{
+    width: 500px;
+}
+
+#send-btn{
+    font-size: 25px;
+}

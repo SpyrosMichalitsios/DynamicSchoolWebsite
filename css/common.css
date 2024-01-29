@@ -1,0 +1,154 @@
+/* THIS IS FOR EVERY PAGE */
+*{
+    color:aquamarine;
+    background-color: darkslategray;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size:xx-large;
+    font-weight: 1000;
+    border: 20px solid  rgb(25, 42, 42);
+    border-radius: 12px;
+}
+
+
+h2{
+    border: 5px solid rgb(25, 42, 42);
+    padding: 5px;
+    font-size: 21px;
+    border-radius: 12px;
+    display: flex;
+} 
+
+.edit-delete-btn{
+    margin-left: 10px;
+    font-size:21px ;
+
+}
+
+#toTopBtn{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border: 0;
+}   
+
+#toTopBtn:hover{
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+
+hr{
+    margin: 30px;
+}
+
+
+.page-container{
+    display: flex;
+    margin-right: 20px;
+}
+
+.main-content{
+    margin-left: 20px;
+}
+
+
+.error{
+    color: rgb(224, 54, 54);
+    margin: 10px;
+    
+}
+
+.succesfull-message{
+    display: inline;
+    margin-left: 10px;
+    color: rgb(80, 218, 80);
+}
+   
+
+input[type="submit"]
+{
+    border-radius: 12px;
+}
+
+
+input[type="submit"]:hover
+,a:hover{
+    background-color:  rgb(25, 42, 42);
+}
+    
+input[type="text"],
+input[type="password"],
+input[type="date"],
+textarea{
+    background-color:rgb(66, 111, 111);
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+
+
+.add-edit-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+} 
+
+textarea#message-body,
+textarea#description,
+textarea#goals,
+textarea#deliverable{
+    resize: none;
+    width: 500px;
+    height:200px;
+}
+
+#logout-link{
+    margin: 5px;
+    position: absolute;
+    right: 30px;
+}
+
+
+.form-btn{
+    font-size: 30px;
+}
+
+
+/* THIS IS FOR THE NAVIGATION BAR */
+
+.navigation-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navigation-list a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border: 15px solid rgb(25, 42, 42);
+    max-width: 500px;
+    min-width: 500px;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+

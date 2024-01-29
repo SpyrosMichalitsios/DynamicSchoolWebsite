@@ -1,0 +1,4 @@
+/* We want the hr to reach the end of the page */
+.users-content{
+    flex: 1;
+}

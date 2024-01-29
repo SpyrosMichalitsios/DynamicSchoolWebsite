@@ -1,0 +1,22 @@
+/* FOR THE HOMEWORK PAGE */
+
+/* We want the hr to reach the end of the page */
+.homework-content{
+    flex: 1;
+}
+
+
+/* MAKE THE ADD HOMEWORK BUTTON LOOK LIKE A LINK */
+#add-homework{
+    background: none;
+    border: none;
+    padding: 0; 
+    text-decoration: underline; 
+    cursor: pointer;
+    border-radius: 0;
+
+}
+#add-homework:hover{
+    background-color:  rgb(25, 42, 42);
+
+}
